@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -6,11 +6,15 @@ export default function Home() {
       <div className="text-center space-y-8 max-w-2xl">
         <h1 className="text-5xl font-bold text-foreground">Hello World! 👋</h1>
 
-        <p className="text-xl text-muted-foreground">Welcome to Next.js with Image Optimization</p>
+        <p className="text-xl text-muted-foreground">
+          Welcome to Next.js with Image Optimization
+        </p>
 
         {/* Example 1: Responsive image with automatic format optimization */}
         <div className="space-y-4">
-          <h2 className="text-2xl font-semibold text-foreground">Optimized Images</h2>
+          <h2 className="text-2xl font-semibold text-foreground">
+            Optimized Images
+          </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Placeholder image with next/image optimization */}
@@ -38,7 +42,9 @@ export default function Home() {
         </div>
 
         <div className="space-y-2 text-sm text-muted-foreground bg-card p-6 rounded-lg border border-border">
-          <p className="font-semibold text-card-foreground">✨ Image Optimization Features:</p>
+          <p className="font-semibold text-card-foreground">
+            ✨ changing something here!!!:
+          </p>
           <ul className="list-disc list-inside space-y-1 text-left">
             <li>Automatic format optimization (WebP, AVIF)</li>
             <li>Responsive image loading with sizes prop</li>
@@ -49,5 +55,5 @@ export default function Home() {
         </div>
       </div>
     </main>
-  )
+  );
 }
